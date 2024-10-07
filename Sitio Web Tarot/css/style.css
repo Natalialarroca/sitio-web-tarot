@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+    
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    
+}
+
+.contenedor {
+    width: min(90%, 120rem);
+    margin: 0 auto;
+    background-color: beige;
+}
+
+h1, h2, h3 {
+    line-height: 2;
+    font-size: 3rem;
+    text-align: center;
+    color: blue;
+   
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5rem;
+    gap: 2rem;
+    
+    background-color: black;
+
+  a {
+    color: blueviolet;
+
+    &:hover{
+        color: aliceblue;
+    }
+  }
+
+   
+}
