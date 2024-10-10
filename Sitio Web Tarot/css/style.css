@@ -21,6 +21,7 @@ body {
     width: min(90%, 120rem);
     margin: 0 auto;
     background-color: beige;
+    padding: 0 20px;
 }
 
 h1,
@@ -56,6 +57,4 @@ footer {
     background-color: black;
     padding: 20px;
     text-align: center;
-
-
 }
